@@ -22,7 +22,7 @@ const cube = {
   // The geometry: the shape & size of the object
   geometry: new THREE.BoxGeometry(1, 1, 1),
   // The material: the appearance (color, texture) of the object
-  material: new THREE.MeshBasicMaterial({ color: cyan })
+  material: new THREE.MeshBasicMaterial({ color: #00FFFF })
 };
 
 // The mesh: the geometry and material combined, and something we can directly add into the scene (I had to put this line outside of the object literal, so that I could use the geometry and material properties)
@@ -32,7 +32,7 @@ cube.mesh = new THREE.Mesh(cube.geometry, cube.material);
 scene.add(cube.mesh);
 
 // Make the camera further from the cube so we can see it better
-camera.position.z = 5;
+camera.position.z = 2;
 
 function render() {
   // Render the scene and the camera
