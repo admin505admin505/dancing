@@ -32,7 +32,7 @@ cube.mesh = new THREE.Mesh(cube.geometry, cube.material);
 scene.add(cube.mesh);
 
 // Make the camera further from the cube so we can see it better
-camera.position.z = 2;
+camera.position.z = 5;
 
 function render() {
   // Render the scene and the camera
