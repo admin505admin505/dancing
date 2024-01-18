@@ -22,7 +22,7 @@ const cube = {
   // The geometry: the shape & size of the object
   geometry: new THREE.BoxGeometry(1, 1, 1),
   // The material: the appearance (color, texture) of the object
-  material: new THREE.MeshBasicMaterial({ color: #00FFFF })
+  material: new THREE.MeshBasicMaterial({ color: 0x00ff00 })
 };
 
 // The mesh: the geometry and material combined, and something we can directly add into the scene (I had to put this line outside of the object literal, so that I could use the geometry and material properties)
