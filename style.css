@@ -4,6 +4,7 @@ html, body {
 	user-select: none;
   padding: 0;
   margin: 0;
+ background:black;
 }
 
 canvas {
@@ -12,6 +13,3 @@ canvas {
 	padding: 0;
 }
 
-body{
-	background:black;
-}
